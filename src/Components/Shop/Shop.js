@@ -8,6 +8,7 @@ const Shop = () => {
 
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([])
+    //product to be randered on ui
     const [displayProducts, setDisplayProducts] = useState([])
 
     useEffect(() => {
