@@ -9,6 +9,7 @@ import NotFound from './Components/NotFound/NotFound';
 function App() {
   return (
     <div>
+      <h1>Hello</h1>
       <BrowserRouter>
         <Header />
         <Switch>
