@@ -26,7 +26,9 @@ const OrderReview = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart} />
+                <Cart cart={cart} >
+                    <button className="purches-button">Place Order</button>
+                </Cart>
             </div>
 
         </div>
