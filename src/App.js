@@ -8,44 +8,45 @@ import NotFound from './Components/NotFound/NotFound';
 import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
+import AuthProvider from './Context/AuthProvider';
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Header />
-        <Switch>
-          <Route exact path="/">
-            <Shop />
-          </Route>
-          <Route path="/shop">
-            <Shop />
-          </Route>
-          <Route path="/inventory">
-            <Inventory />
-          </Route>
-          <Route path="/orderreview">
-            <OrderReview />
-          </Route>
-          <Route path="/order">
-            <OrderReview />
-          </Route>
-          <Route path="/placeorder">
-            <PlaceOrder />
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/register">
-            <Register />
-          </Route>
-          <Route path="*">
-            <NotFound />
-          </Route>
-        </Switch>
-      </BrowserRouter>
-
-
+      <AuthProvider>
+        <BrowserRouter>
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <Shop />
+            </Route>
+            <Route path="/shop">
+              <Shop />
+            </Route>
+            <Route path="/inventory">
+              <Inventory />
+            </Route>
+            <Route path="/orderreview">
+              <OrderReview />
+            </Route>
+            <Route path="/order">
+              <OrderReview />
+            </Route>
+            <Route path="/placeorder">
+              <PlaceOrder />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/register">
+              <Register />
+            </Route>
+            <Route path="*">
+              <NotFound />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

@@ -37,8 +37,9 @@ step 3: () =>{
 step 4: () =>[
     1. create a auth context
     2. create context provider
-    3. use auth provider
-    4. create useAuth hook
+    3. set context value for context provider.
+    4. use auth provider
+    5. create useAuth hook
 ]
 
 */
