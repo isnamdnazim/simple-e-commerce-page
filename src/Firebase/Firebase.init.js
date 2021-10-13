@@ -31,6 +31,14 @@ step 3: () =>{
     2. setup signout method
     3. setup useState
     4. setup a special observer by using useEffect on onAuthStateChange from firebase.
+    5. return necessary method and states for useFirebase
 }
+
+step 4: () =>[
+    1. create a auth context
+    2. create context provider
+    3. use auth provider
+    4. create useAuth hook
+]
 
 */

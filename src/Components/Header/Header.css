@@ -21,3 +21,16 @@
     width: 25%;
 
 }
+.header button{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+}
+.header button:hover{
+    background-color: lightgray;
+    color: black;
+}
