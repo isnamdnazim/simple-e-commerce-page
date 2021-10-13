@@ -26,4 +26,11 @@ step 2: () =>{
     4. create route for register
 }
 
+step 3: () =>{
+    1. set up login method
+    2. setup signout method
+    3. setup useState
+    4. setup a special observer by using useEffect on onAuthStateChange from firebase.
+}
+
 */
