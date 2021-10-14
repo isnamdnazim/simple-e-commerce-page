@@ -47,4 +47,8 @@ step 5: () =>{
     2. set private route
 }
 
+step 6: () =>{
+    1. After login redirect user to their desire destination.
+}
+
 */
