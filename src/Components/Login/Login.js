@@ -5,7 +5,7 @@ import './Login.css';
 
 const Login = () => {
 
-    const { user, googleSignIn } = useAuth();
+    const { googleSignIn } = useAuth();
 
     return (
         <div className="login-form">
