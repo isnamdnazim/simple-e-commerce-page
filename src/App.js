@@ -9,6 +9,7 @@ import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -32,9 +33,9 @@ function App() {
             <Route path="/order">
               <OrderReview />
             </Route>
-            <Route path="/placeorder">
+            <PrivateRoute path="/placeorder">
               <PlaceOrder />
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login />
             </Route>
