@@ -26,7 +26,7 @@ const Login = () => {
                     <input type="password" name="" placeholder="Password" id="" /><br /><br />
                     <input type="submit" value="Submit" /><br />
                 </form>
-                <p>New to Ema-Jhon? <Link to="/register">Create Account</Link></p><br />
+                <p>New to Ema-Jhon Website? <Link to="/register">Create Account</Link></p><br />
                 <div>---------OR---------</div><br />
                 <button onClick={handleGoogleLogIn} className="purches-button">Sign In With Google</button>
             </div>
