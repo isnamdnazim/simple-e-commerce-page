@@ -34,12 +34,17 @@ step 3: () =>{
     5. return necessary method and states for useFirebase
 }
 
-step 4: () =>[
+step 4: () =>{
     1. create a auth context
     2. create context provider
     3. set context value for context provider.
     4. use auth provider
     5. create useAuth hook
-]
+}
+
+step 5: () =>{
+    1. create private route
+    2. set private route
+}
 
 */
